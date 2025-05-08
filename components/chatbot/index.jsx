@@ -37,7 +37,6 @@ export const index = () => {
       });
 
       if (!res.ok) throw new Error("API error");
-      debugger;
       const data = await res.json();
 
       setMessages([
